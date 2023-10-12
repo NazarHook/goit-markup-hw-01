@@ -1,7 +1,7 @@
 body{
     background-color: #ffffff;
-    font-family: "Raleway", "Roboto", sans-serif;  
-    color: #2E2F42;
+    font-family: "Roboto", sans-serif;  
+    color: #434455;
 }
 .link{
     text-decoration: none;
@@ -19,15 +19,35 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 color: #4D5AE5;
 }
-.logo-link{
+.logo-2-part{
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.16; 
+line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
-color: var(--NAVY-BLUE, #2E2F42);
+color: var(--NAVY-BLUE, #2e2f42);
+}
+.footer-logo-2-part{
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+color: var(--CLOUD, #F4F4FD);
+}
+.logo{
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17; 
+letter-spacing: 0.03em ;
+text-transform: uppercase;
+color: var(--NAVY-BLUE, #4d5ae5);
 }
 .main-nav{
 display: inline-flex;
@@ -43,6 +63,13 @@ line-height: 1.5;
 letter-spacing: 0.32px;
 color: var(--NAVY-BLUE, #2E2F42);
 }
+.nav-names:hover,
+.nav-names:focus{
+    color: #404bbf;
+}
+.contacts-info{
+    font-style: normal;
+}
 .contact-links{
 font-family: Roboto;
 font-size: 16px;
@@ -51,6 +78,10 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.32px;
 color: var(--SLATE, #434455);
+}
+.contact-links:hover,
+.contact-links:focus{
+    color: #404bbf; 
 }
 .hero-section{
 width: 1440px;
@@ -69,6 +100,10 @@ background: var(--NAVY-BLUE, #2E2F42);
     color: var(--WHITE, #FFF);
 }
 .hero-section-button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
     display: inline-flex;
 padding: 16px 32px;
@@ -79,6 +114,11 @@ background: var(--IRIS, #4D5AE5);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 color: #FFF;
 }
+.hero-section-button:hover,
+.hero-section-button:focus{
+    background-color: #404BBF ;
+}
+
 .benefits-list-title{
     font-family: Roboto;
     font-size: 20px;
